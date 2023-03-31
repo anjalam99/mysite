@@ -1,0 +1,54 @@
+
+.requme{
+    background-color: tomato;
+    text-align: center;
+    padding: 12px 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    color: white;
+    border:1px solid black;
+    transition: .3s;
+
+}
+.requme:hover{
+    color:yellow;
+    cursor:grabbing;
+}
+.div1{
+    margin: 15px;
+}
+.upload{
+    background-color: green;
+    text-align: center;
+    padding: 12px 30px;
+    font-size: 13px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    color: white;
+    border:1px solid black;
+    transition: .3s; 
+}
+.upload:hover{
+    color: bisque;
+    cursor:grab;
+}
+
+.download{
+    background-color: red;
+    text-align: center;
+    padding: 13px 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    border-radius: 30px;
+    color: white;
+    font-size: 13px;
+
+}
+.download:hover{
+    color:chartreuse;
+    cursor:grabbing;
+}

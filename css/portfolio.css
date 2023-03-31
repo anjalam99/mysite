@@ -1,0 +1,114 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'josefin sans', sans-serif;
+
+
+}
+body {
+    background-image: url("/html/arnill.jpg");
+    background-repeat:no-repeat;
+    background-color: black;
+    
+    
+
+}
+.hero{
+    height: 100vm;
+    width: 100%;
+
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo{
+    color: white ;
+    font-size: 29px;
+}
+span{
+    color: #ea1538;
+}
+nav ul li{
+    list-style-type:none;
+    display: inline-block;
+    padding: 10px 22px;
+}nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    transition: .4s;
+    color: #ea1538;
+
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+h1{
+    color: white;font-size: 80px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+
+}
+p{
+    margin-bottom: 50px;
+    color: white;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 50px;
+}
+button{
+    background: #ea1538;
+    padding: 12px 30px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: .3s;
+
+}
+button:hober{
+    background: transparent;
+    border: 2px solid #ea1538;
+    color: white;
+    transform: translate(-10px);
+    cursor:wait;
+
+}
+.links{
+    position: absolute;
+    top:90px;
+    left:10px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.links h6{
+    color:white;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.links .socail a{
+    display: inline-block;
+    color: white;
+    margin-right: 10px;
+}

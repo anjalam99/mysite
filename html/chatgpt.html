@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Bio</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		h1 {
+			margin: 0;
+		}
+		main {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+		ul {
+			list-style: none;
+			padding: 0;
+		}
+		li {
+			margin-bottom: 10px;
+		}
+		label {
+			display: block;
+			margin-bottom: 5px;
+			font-weight: bold;
+		}
+		input[type=text], textarea {
+			padding: 5px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+			width: 100%;
+			box-sizing: border-box;
+		}
+		button {
+			background-color: #333;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			margin-top: 10px;
+		}
+		button:hover {
+			background-color:tomato;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>My Bio</h1>
+	</header>
+	<main>
+		<img src="/image/p" alt="My Profile Picture">
+		<h2>John Doe</h2>
+		<p>Hi there! I'm Anj and I'm a web developer. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat elit vitae hendrerit dapibus. Proin vulputate luctus lectus, eget accumsan velit accumsan ac. Nulla facilisi. In hac habitasse platea dictumst. </p>
+		<h3>Personal Information</h3>
+		<ul>
+			<li><label>Name:</label> Anjalam dakua </li>
+			<li><label>Email:</label> arnillemon63@gmail.com</li>
+			<li><label>Phone:</label> 01610022866 </li>
+			<li><label>Location:</label> Dhaka, Bangladesh </li>
+		</ul>
+		<h3>Contact Form</h3>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			<label for="email">Email:</label>
+			<input type="text" id="email" name="email" required>
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+			<button type="submit">Send Message</button>
+		</form>
+	</main>
+	<script>
+		// Add JavaScript code here if needed
+	</script>
+</body>
+</html>

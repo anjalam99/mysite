@@ -1,0 +1,72 @@
+.body{
+    background-color:slategray
+}
+
+.div{
+    max-width: 100%;}
+
+.welcome{
+    color:white;
+    text-align: center;
+    }
+
+.about{
+    color:white
+}
+
+.para{
+    color: white}
+
+.paradiv{
+    background-color: slategray;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+}
+.skills{
+    color: white;
+    margin-left: 100px;
+    text-decoration: underline;
+   
+}
+
+.list{
+    color: white;
+    margin-left: 80px;
+    text-decoration: underline;
+   
+ }
+.copy{
+    color: azure;
+    text-align: center;
+    margin-top: 50px;
+}
+.img{
+        height: 200px;
+        width: 200px;
+        border: 1px;
+        border-radius: 100px;
+        margin-top: 10px;
+        image-rendering: pixelated;
+    }
+
+.table{
+    color: white;
+    font-size: 20px;
+    margin-left: 400px;
+    
+    
+}
+.form{
+    background-color:steelblue;
+    width: 20%;
+    margin-left: 100px;
+    padding: 90px;
+    margin-top: 30px;
+}
+.formh1{
+    color: aliceblue;
+}
+.link{
+ text-align: right;
+}
